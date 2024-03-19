@@ -23,9 +23,9 @@ from rest_framework import permissions
 
 schema_view = get_schema_view(
 	openapi.Info(
-		title="Store API",
+		title="Comic",
 		default_version="v1",
-		description="Итоговый проект",
+		description="Рейтинг комиксов",
 		terms_of_service="http://www.google.com/policies/terms/",
 		contact=openapi.Contact(email="admin@company.local"),
 		license=openapi.License(name=""),
