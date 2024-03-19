@@ -1,6 +1,6 @@
 FROM python:3.11-alpine3.16
-COPY service /app
-WORKDIR /app
+COPY . /services
+WORKDIR /services
 EXPOSE 8000
 
 RUN pip install -r requirements.txt
