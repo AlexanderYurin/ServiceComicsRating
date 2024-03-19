@@ -5,3 +5,4 @@ EXPOSE 8000
 
 RUN pip install -r requirements.txt
 
+CMD ["sh", "-c", "python manage.py migrate && python manage.py loaddata app/fixtures/fixtures.json"]
